@@ -1,0 +1,29 @@
+fFirst Time
+
+1. Create new folder
+
+2. Create files for folder
+
+3. Terminal
+    1. cd []
+    2. “# Name of slides” >> README.MD
+    3. git init
+    4. git add -A
+    5. git commit -m “first commit”
+    6. git remote add origin []
+    7. git push -u origin master
+
+5. GitHub
+    1. Create new branch called “gh-pages”
+    2. Create pull request from master to “gh-pages”
+
+Making changes
+
+1. Terminal
+    1. cd []
+    2. git add -A
+    3. git commit -m “changes”
+    4. git push
+
+2. GitHub
+    1. Create pull request from master to “gh-pages”
