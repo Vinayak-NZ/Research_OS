@@ -46,6 +46,11 @@ p {
   max-height: 853px;
 }
 
+.boxed {
+  border: 1px solid black;
+  background:black;
+}
+
 /*********************************************
  * VIEW FRAGMENTS
  *********************************************/
