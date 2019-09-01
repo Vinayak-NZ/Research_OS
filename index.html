@@ -61,35 +61,6 @@
 						<h2>Data Preparation</h2>
 					</section>
 					<section data-background="#ffffff">
-						<table>
-							 <thead>
-							  <tr>
-							   <th style="text-align:left;">   </th>
-							   <th style="text-align:right;"> XGBoost </th>
-							   <th style="text-align:right;"> CANCEIS </th>
-							   <th style="text-align:right;"> MixedMethods </th>
-							   <th style="text-align:right;"> Mode </th>
-							  </tr>
-							 </thead>
-							<tbody>
-							  <tr>
-							   <td style="text-align:left;"> Accuracy </td>
-							   <td style="text-align:right;"> 0.97 </td>
-							   <td style="text-align:right;"> 0.7 </td>
-							   <td style="text-align:right;"> 0.68 </td>
-							   <td style="text-align:right;"> 0.78 </td>
-							  </tr>
-							  <tr>
-							   <td style="text-align:left;"> Kappa </td>
-							   <td style="text-align:right;"> 0.92 </td>
-							   <td style="text-align:right;"> 0.0 </td>
-							   <td style="text-align:right;"> 0.00 </td>
-							   <td style="text-align:right;"> NA </td>
-							  </tr>
-							</tbody>
-						</table>
-					</section>
-					<section data-background="#ffffff">
 						<iframe width="853px" height="480px" src="dataVis/never_internet.html" frameborder="0"></iframe>
 					</section>
 					<section data-background="#ffffff">
@@ -102,20 +73,61 @@
 						<h2>Model Building</h2>
 					</section>
 					<section data-background="#ffffff">
-						<div id="Container"
-						 style="padding-bottom:56.25%; position:relative; display:block; width: 100%">
-						 <iframe id="Country_graph"
-							width="100%" height="100%"
-							src="dataVis/country.html"
-							frameborder="0" allowfullscreen=""
-							style="position:absolute; top:0; left: 0"></iframe>
-						</div>
+						<h2>Economic Activity</h2>
 					</section>
 					<section data-background="#ffffff">
-						<iframe width="853px" height="480px" src="dataVis/never_internet.html" frameborder="0"></iframe>
+						<h2>Model performance</h2>
+						<table>
+							 <thead>
+								<tr>
+								 <th style="text-align:left;">   </th>
+								 <th style="text-align:right;"> XGBoost </th>
+								 <th style="text-align:right;"> CANCEIS </th>
+								 <th style="text-align:right;"> MixedMethods </th>
+								 <th style="text-align:right;"> Mode </th>
+								</tr>
+							 </thead>
+							<tbody>
+								<tr>
+								 <td style="text-align:left;"> Accuracy </td>
+								 <td style="text-align:right;"> 0.78 </td>
+								 <td style="text-align:right;"> 0.44 </td>
+								 <td style="text-align:right;"> 0.26 </td>
+								 <td style="text-align:right;"> 0.47 </td>
+								</tr>
+								<tr>
+								 <td style="text-align:left;"> Kappa </td>
+								 <td style="text-align:right;"> 0.61 </td>
+								 <td style="text-align:right;"> 0.14 </td>
+								 <td style="text-align:right;"> 0.06 </td>
+								 <td style="text-align:right;"> NA </td>
+								</tr>
+							</tbody>
+						</table>
 					</section>
 					<section data-background="#ffffff">
-						<iframe width="853px" height="480px" src="dataVis/zero_internet.html" frameborder="0"></iframe>
+						<h2>XGBoost: Overall Accuracy</h2>
+						<img src="images/accuracyXG_econAct.png" alt="EconAct_XG_acc" style="max-width:50%;max-height:50%">
+					</section>
+					<section data-background="#ffffff">
+						<h2>XGBoost: Confusion Matrix</h2>
+						<img src="images/EAXGBoostqplot.png" alt="EconAct_XG_qp">
+					</section>
+					<section data-background="#ffffff">
+						<h2>XGBoost: Imputable Variable Distribution</h2>
+						<img src="images/PIXG_econAct.png" alt="EconAct_PIXG">
+					</section>
+					<section data-background="#ffffff">
+						<h2>CANCEIS: Overall Accuracy</h2>
+						<img src="images/accuracyCANCEIS_econAct.png" alt="EconAct_C_acc">
+					</section>
+					<section data-background="#ffffff">
+						<h2>CANCEIS: Confusion Matrix</h2>
+						<img src="images/EACANCEISqplot.png" alt="EconAct_C_qp">
+					</section>
+					<section data-background="#ffffff">
+						<h2>CANCEIS: Imputable Variable Distribution</h2>
+						<img src="images/PICANCEIS_econAct.png" alt="EconAct_actuals">
 					</section>
 				</section>
 
