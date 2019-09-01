@@ -50,7 +50,7 @@ p {
 }
 
 .table{
-  font-size: 1vw;
+  font-size: calc(10px * 2vmin);
 }
 
 /*********************************************
@@ -1622,6 +1622,9 @@ p {
     font-size: 20px; } }
 
 @media screen and (min-width: 1024px) and (max-width: 1500px) {
+  .reveal .slides {
+        font-size: 16px; }
+}
   img.responsive {
     width: 55%;
     height: 55%;

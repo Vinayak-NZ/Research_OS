@@ -104,7 +104,6 @@
 					</section>
 					<section data-background="#ffffff">
 						<h2>Categorical variables: One hot encoding</h2>
-						<div class="table">
 						<table>
 						 <thead>
 						  <tr>
@@ -147,15 +146,13 @@
 						  </tr>
 						</tbody>
 						</table>
-					</div>
 					</section>
 					<section data-background="#ffffff">
 						<h2>Continuous variable: Normalise</h2>
 							<img src="images/norm_ex.png" alt="norm_ex" class="responsive"/>
 					</section>
 					<section data-background="#ffffff">
-						<h2>Data journey<h2>
-							<img src="images/DataProcessing.svg" alt="data_proc" class="responsive"/>
+						<iframe width="853px" height="480px" src="dataVis/zero_internet.html" frameborder="0"></iframe>
 					</section>
 				</section>
 
@@ -218,7 +215,7 @@
 					</section>
 					<section data-background="#ffffff">
 						<h2>CANCEIS: Imputable Variable Distribution</h2>
-						<img src="images/PICANCEIS_econAct.png" alt="EconAct_actuals" class="responsive"/>
+						<img src="images/PICANCEIS_econAct.png" alt="EconAct_PIC" class="responsive"/>
 					</section>
 				</section>
 
@@ -290,10 +287,33 @@
 							</span>
 						</p>
 					</section>
+					<section data-background="#ffffff">
+						<h2>How did it perform in simulation studies<h2>
+							<p>
+								<span style="font-family:verdana;font-size:2.5vmin" class="fragment fade-up">
+									<b>Produce a report for the quality of imputation for each key outcome variable. Include the following</b>
+									<br>1) Quality metrics of predictions (from simulation study)
+									<br>2) Impact of imputation on distribution (from simulation study)
+								</span>
+							</p>
+							<p>
+								<span style="font-family:verdana;font-size:2.5vmin" class="fragment fade-up">
+									<b>An example of a report for the variable Hours Worked is provided below<b>
+								</span>
+							</p>
+					</section>
+          <section data-background="#ffffff">
+            <h2>Hours Worked: Simulation study</h2>
+              <img src="images/PIXG_hoursCont.png" alt="hoursCont" class="responsive"/>
+          </section>
+          <section data-background="#ffffff">
+            <h2>Hours Worked: Simulation study</h2>
+              <img src="images/featuresXG_hoursCont.png" alt="features" class="responsive"/>
+          </section>
 				</section>
 
-				<section>
-					<section data-background-image = "images/follow.jpg"; background-size: cover>
+        <section>
+          <section data-background-image = "images/follow.jpg"; background-size: cover>
             <h2>Stay posted<h2>
           </section>
           <section data-background-iframe="https://bookdown.org/v_anandkumar88/docs/" data-background-interactive>
