@@ -1608,6 +1608,8 @@ p {
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: landscape) {
     .reveal .slides {
+          width: 100%;
+          height: 50%;
           font-size: 16px; }
 }
 
