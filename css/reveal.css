@@ -1592,6 +1592,25 @@ p {
     .reveal .slides {
           font-size: 16px; } }
 
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+    .reveal .slides {
+          font-size: 16px; }
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+    .reveal .slides {
+          font-size: 16px; }
+}
+
 @media screen and (min-width: 1600px) {
   .reveal .speaker-notes {
     font-size: 20px; } }
