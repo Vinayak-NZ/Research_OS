@@ -1587,7 +1587,8 @@ p {
 
 @media only screen
   and (min-device-width: 320px)
-  and (max-device-width: 736px) {
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3) {
     .reveal .slides {
           font-size: 16px; } }
 
@@ -1595,7 +1596,11 @@ p {
   .reveal .speaker-notes {
     font-size: 20px; } }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1500px) {
+  img.responsive {
+    width: 55%;
+    height: 55%;
+  }
   .reveal.show-notes {
     border-left: 0;
     max-width: none;
