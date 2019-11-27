@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>White Rabbit: Royal Stats Society 2019 - Learning to Impute</title>
+		<title>White Rabbit: Research in Official Statistics</title>
 
 		<meta name="description" content="Presentation companions">
 		<meta name="author" content="Open Source">
@@ -46,274 +46,119 @@
 				<section data-background-image = "images/cover.jpg"; background-size: cover>
 					<div class="wrapper">
 					  <div>
-							<h3>Royal Statistics Society 2019</h3>
-							<span style="font-family:verdana;font-size:4vmin;color:white;">Learning to Impute</span>
+							<h3>Office for National Statistics</h3>
+							<span style="font-family:verdana;font-size:4vmin;color:white;">Research in Official Statistics</span>
 						</div>
 					  <div class="boxed">
 							<div class="boxed">
-							<span style="font-family:verdana;font-size:2.5vmin;color:white;"> <b>Treating missing data with machine learning</b> </span>
+							<span style="font-family:verdana;font-size:2.5vmin;color:white;"> <b>Giving things a nudge</b> </span>
 						</div>
 					</div>
 				</section>
 
 				<section>
-					<section data-background-image = "images/preparation.jpg"; background-size: cover>
-						<h2>Data Preparation</h2>
-					</section>
-					<section data-background="#ffffff">
-						<h2>Encoding Variables</h2>
-					</section>
-					<section data-background="#ffffff">
-						<h2>Categorical variables: Label encoding</h2>
-						<table>
-						 <thead>
-						  <tr>
-						   <th style="text-align:left;"> person.id </th>
-						   <th style="text-align:left;"> health </th>
-						   <th style="text-align:right;"> health.label </th>
-						  </tr>
-						 </thead>
-						<tbody>
-						  <tr>
-						   <td style="text-align:left;"> 1 </td>
-						   <td style="text-align:left;"> Poor </td>
-						   <td style="text-align:right;"> 1 </td>
-						  </tr>
-						  <tr>
-						   <td style="text-align:left;"> 2 </td>
-						   <td style="text-align:left;"> Fair </td>
-						   <td style="text-align:right;"> 2 </td>
-						  </tr>
-						  <tr>
-						   <td style="text-align:left;"> 3 </td>
-						   <td style="text-align:left;"> Excellent </td>
-						   <td style="text-align:right;"> 3 </td>
-						  </tr>
-						  <tr>
-						   <td style="text-align:left;"> 4 </td>
-						   <td style="text-align:left;"> Excellent </td>
-						   <td style="text-align:right;"> 3 </td>
-						  </tr>
-						  <tr>
-						   <td style="text-align:left;"> 5 </td>
-						   <td style="text-align:left;"> Fair </td>
-						   <td style="text-align:right;"> 2 </td>
-						  </tr>
-						</tbody>
-						</table>
-					</section>
-					<section data-background="#ffffff">
-						<h2>Categorical variables: One hot encoding</h2>
-						<div class="table">
-						<table>
-						 <thead>
-						  <tr>
-						   <th style="text-align:left;"> person.id </th>
-						   <th style="text-align:right;"> labour.force.status.Employed </th>
-						   <th style="text-align:right;"> labour.force.status.Not in labour force </th>
-						   <th style="text-align:right;"> labour.force.status.Unemployed </th>
-						  </tr>
-						 </thead>
-						<tbody>
-						  <tr>
-						   <td style="text-align:left;"> 1 </td>
-						   <td style="text-align:right;"> 1 </td>
-						   <td style="text-align:right;"> 0 </td>
-						   <td style="text-align:right;"> 0 </td>
-						  </tr>
-						  <tr>
-						   <td style="text-align:left;"> 2 </td>
-						   <td style="text-align:right;"> 0 </td>
-						   <td style="text-align:right;"> 0 </td>
-						   <td style="text-align:right;"> 1 </td>
-						  </tr>
-						  <tr>
-						   <td style="text-align:left;"> 3 </td>
-						   <td style="text-align:right;"> 0 </td>
-						   <td style="text-align:right;"> 1 </td>
-						   <td style="text-align:right;"> 0 </td>
-						  </tr>
-						  <tr>
-						   <td style="text-align:left;"> 4 </td>
-						   <td style="text-align:right;"> 0 </td>
-						   <td style="text-align:right;"> 0 </td>
-						   <td style="text-align:right;"> 1 </td>
-						  </tr>
-						  <tr>
-						   <td style="text-align:left;"> 5 </td>
-						   <td style="text-align:right;"> 1 </td>
-						   <td style="text-align:right;"> 0 </td>
-						   <td style="text-align:right;"> 0 </td>
-						  </tr>
-						</tbody>
-						</table>
-					</div>
-					</section>
-					<section data-background="#ffffff">
-						<h2>Continuous variable: Normalise</h2>
-							<img src="images/norm_ex.png" alt="norm_ex" class="responsive"/>
-					</section>
-					<section data-background="#ffffff">
-						<h2>Data journey<h2>
-							<img src="images/DataProcessing.svg" alt="data_proc" class="responsive"/>
+					<section data-background-image = "images/evia.jpg"; background-size: cover>
+						<h1>Evia</h1>
 					</section>
 				</section>
 
 				<section>
-					<section data-background-image = "images/building.jpg"; background-size: cover>
-						<h2>Model Building</h2>
+					<section data-background-image = "images/geneva.jpg"; background-size: cover>
+						<h1><font color="black">Geneva</font></h1>
 					</section>
 					<section data-background="#ffffff">
-						<h2>Economic Activity</h2>
-					</section>
-					<section data-background="#ffffff">
-						<h2>Model performance</h2>
-						<table>
-							 <thead>
-								<tr>
-								 <th style="text-align:left;">   </th>
-								 <th style="text-align:right;"> XGBoost </th>
-								 <th style="text-align:right;"> CANCEIS </th>
-								 <th style="text-align:right;"> MixedMethods </th>
-								 <th style="text-align:right;"> Mode </th>
-								</tr>
-							 </thead>
-							<tbody>
-								<tr>
-								 <td style="text-align:left;"> Accuracy </td>
-								 <td style="text-align:right;"> 0.78 </td>
-								 <td style="text-align:right;"> 0.44 </td>
-								 <td style="text-align:right;"> 0.26 </td>
-								 <td style="text-align:right;"> 0.47 </td>
-								</tr>
-								<tr>
-								 <td style="text-align:left;"> Kappa </td>
-								 <td style="text-align:right;"> 0.61 </td>
-								 <td style="text-align:right;"> 0.14 </td>
-								 <td style="text-align:right;"> 0.06 </td>
-								 <td style="text-align:right;"> NA </td>
-								</tr>
-							</tbody>
-						</table>
-					</section>
-					<section data-background="#ffffff">
-						<h2>XGBoost: Overall Accuracy</h2>
-						<img src="images/accuracyXG_econAct.png" alt="EconAct_XG_acc" class="responsive"/>
-					</section>
-					<section data-background="#ffffff">
-						<h2>XGBoost: Confusion Matrix</h2>
-						<img src="images/EAXGBoostqplot.png" alt="EconAct_XG_qp" class="responsive"/>
-					</section>
-					<section data-background="#ffffff">
-						<h2>XGBoost: Imputable Variable Distribution</h2>
-						<img src="images/PIXG_econAct.png" alt="EconAct_PIXG" class="responsive"/>
-					</section>
-					<section data-background="#ffffff">
-						<h2>CANCEIS: Overall Accuracy</h2>
-						<img src="images/accuracyCANCEIS_econAct.png" alt="EconAct_C_acc" class="responsive"/>
-					</section>
-					<section data-background="#ffffff">
-						<h2>CANCEIS: Confusion Matrix</h2>
-						<img src="images/EACANCEISqplot.png" alt="EconAct_C_qp" class="responsive"/>
-					</section>
-					<section data-background="#ffffff">
-						<h2>CANCEIS: Imputable Variable Distribution</h2>
-						<img src="images/PICANCEIS_econAct.png" alt="EconAct_actuals" class="responsive"/>
-					</section>
-				</section>
-
-				<section>
-					<section data-background-image = "images/production.jpg"; background-size: cover>
-						<h2>Productionising models</h2>
-					</section>
-					<section data-background="#ffffff">
-						<h2>Current Imputation Pipeline</h2>
-						<img src="images/CurrentPipeline.svg" alt="Pipeline_Curr" class="responsive"/>
-					</section>
-					<section data-background="#ffffff">
-						<h2>XGBoost Imputation Pipeline</h2>
-						<img src="images/XGBoostPipeline.svg" alt="Pipeline_XG" class="responsive"/>
-					</section>
-					<section data-background="#ffffff">
-						<h2>Neural Net Imputation Pipeline</h2>
-						<img src="images/NeuralNetPipeline.svg" alt="Pipeline_NN" class="responsive"/>
-					</section>
-				</section>
-
-				<section>
-					<section data-background-image = "images/dissemination.jpg"; background-size: cover>
-						<h2>Communicating models</h2>
-					</section>
-					<section data-background="#ffffff">
-						<h2>Explaining XGBoost</h2>
-					</section>
-					<section data-background="#ffffff">
-						<h2>Decision Trees: Predicting Income with Bachelors degree (Yes/No)</h2>
-						<img src="images/dt_bach.png" alt="dt_bach" class="responsive"/>
-					</section>
-					<section data-background="#ffffff">
-						<h2>Decision Trees: Predicting Income with Qualifications</h2>
-						<img src="images/dt_all.png" alt="dt_all" class="responsive"/>
-					</section>
-					<section data-background="#ffffff">
-						<h2>Boosting</h2>
-						<img src="images/boosting.png" alt="Boosting" class="responsive"/>
-					</section>
-					<section data-background="#ffffff">
-						<h2>XGBoost technical paper</h2>
-						<a href="https://arxiv.org/abs/1603.02754">
-							<img src="images/xgboost.png" alt="boostlink" style="height:55%;width:55%;">
+						<a href="https://gss.civilservice.gov.uk/wp-content/uploads/2016/01/Generic-Statistical-Business-Process-Model.pdf">
+							<h2><font color="blue">How we produce statistics?</font></h2>
 						</a>
 					</section>
 					<section data-background="#ffffff">
-						<h2>Profile</h2>
+						<a href="https://unstats.un.org/unsd/classifications/expertgroup/egm2015/ac289-22.PDF">
+							<h2><font color="blue">What information we use to produce statistics?</font></h2>
+						</a>
+					</section>
+					<section data-background="#ffffff">
+						<a href="https://ec.europa.eu/eurostat/cros/system/files/GAMSO%20%281%29.pdf">
+							<h2><font color="blue">What organisations should be doing to support statistical production?</font></h2>
+						</a>
+					</section>
+				</section>
+
+				<section>
+					<section data-background-image = "images/duffryn.jpg"; background-size: cover>
+						<h1>Duffryn</h1>
+					</section>
+					<section data-background="#ffffff">
+						<h2>Working with clients</h2>
 						<p>
-							<span style="font-family:verdana;font-size:2.5vmin" class="fragment fade-up">
-								<b>How was data transformed for building model?</b>
-								<br>All categorical variables were label encoded.
+							<span style="font-family:verdana;font-size:2.5vmin;color:black;" class="fragment fade-up">
+								<br> 1) Communication
+							</span>
+							<span style="font-family:verdana;font-size:2.5vmin;color:black;" class="fragment fade-up">
+								<br> 2) Critical thinking
+							</span>
+							<span style="font-family:verdana;font-size:2.5vmin;color:black;" class="fragment fade-up">
+								<br> 3) Understanding
 							</span>
 						</p>
-						<p>
-							<span style="font-family:verdana;font-size:2.5vmin" class="fragment fade-up">
-								<b>How the model was learned?</b>
-								<br>1) Supervised learning was used. The training data had actual values for the imputable variable, which the model attempts to estimate.
-								<br>2) Batch learning was utilised. All available data was used to train machine learning system.
-							</span>
-						</p>
-						<p>
-							<span style="font-family:verdana;font-size:2.5vmin" class="fragment fade-up">
-								<b>How the model was tested?</b>
-								<br>1) Dataset with complete responses was split into training and test datasets
-								<br>2) Model was built using training data
-								<br>3) Missingess was simulated in test data (pattern = Missing at Random)
-								<br>4) Model was evaluated using test data to see how well it predicted missing values
-							</span>
-						</p>
+					</section>
+				</section>
+
+				<section>
+					<section data-background-image = "images/belfast.jpg"; background-size: cover>
+						<h1><font color="black">Belfast</font></h2>
+					</section>
+					<section data-background="#ffffff">
+						<h2>Becoming a Steward</h2>
+							<p>
+								<span style="font-family:verdana;font-size:2.5vmin;color:black;" class="fragment fade-up">
+									<br> 1) <b>Aware</b> of professional standards of practice
+								</span>
+								<span style="font-family:verdana;font-size:2.5vmin;color:black;" class="fragment fade-up">
+									<br> 2) <b>Create</b> new knowledge/ methods for the profession
+								</span>
+								<span style="font-family:verdana;font-size:2.5vmin;color:black;" class="fragment fade-up">
+									<br> 3) <b>Evaluate</b> emerging ideas in the profession
+								</span>
+								<span style="font-family:verdana;font-size:2.5vmin;color:black;" class="fragment fade-up">
+									<br> 4) <b>Conserve</b> ideas for the profession
+								</span>
+							</p>
+					</section>
+					<section data-background="#ffffff">
+						<h2>Becoming a Steward</h2>
+							<p>
+								<span style="font-family:verdana;font-size:2.5vmin;color:black;" class="fragment fade-up">
+									<br> 5) <b>Responsibly write</b>
+								</span>
+								<span style="font-family:verdana;font-size:2.5vmin;color:black;" class="fragment fade-up">
+									<br> 6) <b>Teach/ mentor</b> others
+								</span>
+								<span style="font-family:verdana;font-size:2.5vmin;color:black;" class="fragment fade-up">
+									<br> 7) Use your knowledge to <b>add societal value</b>
+								</span>
+								<span style="font-family:verdana;font-size:2.5vmin;color:black;" class="fragment fade-up">
+									<br> 8) <b>Responsibly communicate</b> your work
+								</span>
+							</p>
+					</section>
+					<section data-background="#ffffff">
+						<a href="https://www.academia.edu/38927929/Becoming_a_steward_of_data_science">
+							<h2><font color="blue">Read the paper</font></h2>
+						</a>
 					</section>
 				</section>
 
 				<section>
 					<section data-background-image = "images/follow.jpg"; background-size: cover>
-            <h2>Stay posted<h2>
+            <h1>Beyond<h1>
           </section>
-          <section data-background-iframe="https://bookdown.org/v_anandkumar88/docs/" data-background-interactive>
-            <div style="position: absolute; width: 40%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
-              <h2>Working document</h2>
-              <p style="font-size:20px; font-family: Consolas, monaco, monospace;">We are continuing to review alternative imputation methods. We've got some links in the next slide down if you'd like stay posted</p>
-            </div>
-          </section>
-          <section data-background="#ffffff">
-            <a href="https://bookdown.org/v_anandkumar88/docs/">
-              <img src="images/bookdown.jpg";border:0">
-            </a>
-          </section>
-          <section data-background="#ffffff">
-            <a href="https://github.com/Vinayak-NZ/ML-Imputation">
-              <img src="images/github.png";border:0">
-            </a>
-          </section>
-          <section>
-            <a href="https://qrco.de/bbEQNl">
+					<section data-background="#ffffff">
+						<a href="https://wiki.unece.org/login.action?os_destination=%2F">
+							<h2><font color="blue">Get access to UNECE wiki</font></h2>
+						</a>
+					</section>
+					<section>
+            <a href="mailto:vinayak.anand-kumar@ons.gov.uk?subject=Research">
               <p style="font-size:20px; font-family: Consolas, monaco, monospace;">Get in touch
               <br>hint! click me ;) </p>
             </a>
